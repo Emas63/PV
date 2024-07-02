@@ -1,0 +1,25 @@
+button{
+    color: rgb(243, 0, 0);
+    background-color: black;
+}
+body{
+    color:burlywood;
+    
+}
+form{
+    padding: 4%;
+    background-color: blueviolet;
+    color: black;
+    
+}
+.submit{
+    display: flex;
+    justify-content:center ;
+  
+}
+#emas{
+    background-color: red; 
+}
+.one{
+    background-color: burlywood;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="day.css" />
+  </head>
+  <body>
+    <button onclick="greetings()">click me</button>
+    <form onsubmit="validateData()">
+      <div>
+        <label for="">Username</label><br />
+        <input type="text" id="Username" class="one" />
+      </div>
+      <div>
+        <label for="">Email</label><br />
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="">Password</label><br />
+        <input type="password" id="password" />
+      </div>
+      <div class="submit">
+        <input type="submit" value="submit Data" id="emas" />
+      </div>
+      <select onchange="updateLGA()"  id="states"  >
+        <option value="">select state</option readonly>
+            <option value="Bayelsa">Bayelsa State</option>
+            <option value="Gombe"> Gombe State</option>
+            <option value="Nassarawa"> Nassarawa State</option>
+            <option value="Ebonyi"> Ebonyi State</option>
+            <option value="Ekiti">Ekiti State </option>
+    </select>
+   <select  id="lgas">
+    <option value=""> select local government</option>
+   </select>
+    </form>
+    <script src="day.js"></script>
+  </body>
+</html>

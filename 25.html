@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+       #error { 
+        background-color: red; 
+         color: white; 
+         padding: 2%; 
+       }
+    </style> -->
+    <style>
+      button {
+        color: rgb(239, 243, 0);
+        background-color: black;
+      }
+      body {
+        color: rgb(236, 49, 25);
+        background-color: black;
+      }
+      form {
+        padding: 4%;
+        background-color: rgb(43, 226, 226);
+        color: rgb(201, 10, 137);
+        margin-top: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="error"></div>
+      <input required type="number" id="userinput" />
+      <button onclick="validateinput()">Submit</button>
+    </div>
+    <form action="" onsubmit="createData()">
+      <div>
+        <label for="title">Title</label>
+        <input id="title" />
+      </div>
+      <div>
+        <label for="description">Body</label>
+        <input id="description" />
+      </div>
+      <div>
+        <label for="userid">World</label>
+        <input id="userid" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="25.js"></script>
+  </body>
+</html>
